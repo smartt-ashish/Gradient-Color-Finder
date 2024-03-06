@@ -1,0 +1,68 @@
+*{
+margin: 0;
+padding: 0;
+box-sizing: border-box;
+}
+/* Body Style */
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: linear-gradient(to right ,#29f305,#e00a9c);
+}
+.pointer{
+  cursor: pointer;
+}
+/* Container Style */
+.contaner{
+  height: 300px;
+  width: 250px;
+  border-radius: 10px;
+  border: 2px solid ghostwhite;
+}
+/* Button Style */
+.button{
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  height: 150px;
+}
+button{
+  color: rgb(9, 9, 9);
+  height: 30px;
+  width: 100px;
+  margin-top: 10px;
+  border-radius: 10px;
+  border: none;
+  font-size: 1.1rem;
+}
+/* For Color And Shadow */
+.trans{
+  background-color: transparent;
+  box-shadow: 0px 0px 5px ghostwhite;
+  transition: 0.5s linear;
+}
+.trans:hover{
+  box-shadow: 0px 0px 15px white;
+}
+p{
+  text-align: center;
+}
+/* Paragraphs */
+#p1{
+  font-size: 1.1rem;
+  color: ghostwhite;
+  text-decoration: underline;
+}
+#p2{
+  font-size: 1rem;
+  margin-top: 10px;
+  color: bisque;
+}
+/* Copy Button Style */
+.copyBtn{
+  display: flex;
+  justify-content: center; 
+}
+
